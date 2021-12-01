@@ -78,8 +78,17 @@
     </section>
     <section id="what-we-do" class="intro">
         <section i="what-we-do" class="intro">
-            <h2 class="section-title primary-border">What We Do</h2>
-            ...
+    <!-- Wrap every h2 with a class of "section-tile" in this div! -->
+    <div class="flex-row"> 
+            <h2 class="section-title primary-border">What We Do
+            </h2>
+        </div>
+     <div class="flex-row">
+            <p>
+              butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+            </p>
+        </div>
+
         </section>
         
     <section>
@@ -102,79 +111,121 @@
  <section>  
      <h2> What you do</h2>
 
-    <div>
+    <div class="step">
+        <h3>Step 1.</h3>
+        <div class="step-info">
         <img src="./assets/css/images/step-1.svg" alt=""/>
-        <h3>Step 1: <span>Fill out the form above.</span></h3>
+        </div>
+        <div class="step-text">   
+           <h4>Fill Out The Form Above</h4>>
         <p>You're already here, so why not?</p>
+        </div>
+        </div>
     </div>
 
-    <div>
+    <div class="step">
+        <h3>Step 2.</h3>
+        <div class="step-info">
         <img src="./assets/css/images/step-2.svg" alt=""/>
-        <h3>Step 2: Consult with One of our Trainers.</h3>
+        </div>
+        <div class="step-text">
+        <h4>Consult with One of our Trainers.</h4>
         <p>Are you here to build muscle, lose weight, or just feel good?</p>
+        </div>
+        </div>
     </div>
 
-    <div>
+    <div class="step">
+        <h3>Step 3.</h3>
+        <div class="step-info">
         <img src="./assets/css/images/step-3.svg" alt=""/>
-        <h3>Step 3: Get Running.</h3>
+        </div>
+        <div class="step-text">
+        <h4>Get Running.</h4>
         <p>Hit the ground running (literally) once your trainer lays our your plan.</p>
+        </div>
+    </div>
     </div>
 
-    <div>
+    <div class="step">
+        <h3>Step 4.</h3>
+        <div class="step-info">
         <img src="./assets/css/images/step-4.svg" alt=""/>
-        <h3>Step 4: See results.</h3>
+        </div>
+        <div class="step-text">
+        <h4>See results.</h4>
         <p>Bi-weekly checkin with your trainer will keep you focused</p>
-    </div>
+        </div>
+        </div>
    </section>
 
-    <section id="your-trainers" class="trainers">
-        <h2>Meet the trainers</h2>
-        </section>
+
+
+<div class="trainers">
         <h2 class="section-title primary-border">
-            Meet the trainers
+           Meet the trainers
         </h2>
+     <!--first trainer bio-->   
             <article class="trainer">
                 <img src="./assets/css/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
-                <div class="trainer-bio text-left">
-                    <h3>Arron Stephens</h3>
-                    <h4>Speed / Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Arron Stephens</h3>
+                    <h4 class="trainer-role">Speed / Strength</h4>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
                         itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat! 
                     </p>
                 </div>
             </article>
-    </section>
-
     <!--second trainer bio-->
             <article class="trainer">
-                <div class="trainer-bio text-right">
-                    <h3>Joanna Gill</h3>
-                    <h4>Endurance</h4>
+                <img src="./assets/css/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Joanna Gill</h3>
+                    <h4 class="trainer-role">Endurance</h4>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
                          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
                     </p>
                 </div>
-                <img src="./assets/css/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
-            </article>
+            </article>       
     <!-- third trainer bio-->
             <article class="trainer">
                 <img src="./assets/css/images/trainer-3.jpg" alt="Harry SMith wearing a headband and lifting comically small pink weights" />
-                <div class="trainer-bio text-left">
-                    <h3>Harry "the Headband" Smith</h3>
-                    <h4>Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
                         itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
                     </p>
                 </div>
             </article>
+</div>
+
     <!-- "reach out" section-->
     <section id="reach-out" class="contact">
         <h2 class="section-title secondary-border">Reach Out</h2>
     <section>
         <div class="contact-info">
+            <div>
+                <h3>Run Buddy</h3>
+                <p>
+                    Any questions or concerns before signing up?
+                    <br />
+                    Let us know and we'll be happy to talk to you!
+                </p>
+
+                <address>
+                    55 Main Street <br />
+                    Some Town, CA <br />
+                    12345 <br />
+                    P: 555.RUN.BUDZ (555.786.2839)<br />
+                    E: <a href="malito.info@runbuddy.io">infor@runbuddy.io</a>
+                </address>
+
+            </div>
+
             <div class="contact-form">
                 <h3>Contact Us</h3>
                 <form>
@@ -187,6 +238,7 @@
                    <button type="submit">Submit</button>
                   </form>
               </div>
+              
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.6687199791936!2d-122.35070508413067!3d47.515842502235955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549043d955c9d257%3A0xd9d210eb4ae52e48!2s9721%2010th%20Pl%20SW%2C%20Seattle%2C%20WA%2098106!5e0!3m2!1sen!2sus!4v1637956441763!5m2!1sen!2sus" 
             width="400" 
             height="400" 
@@ -195,21 +247,7 @@
             loading="lazy">
         </iframe>
         </div>
-    <div>
-        <h3>Run Buddy</h3>
-        <p>
-            Any questions or concerns before signing up?
-            <br />
-            Let us know and we'll be happy to talk to you!
-        </p>
-        <address>
-            55 Main Street <br />
-            Some Town, CA <br />
-            12345 <br />
-            P: 555.RUN.BUDZ (555.786.2839)<br />
-            E: <a href="malito.info@runbuddy.io">infor@runbuddy.io</a>
-        </address>
-    </div>
+
     </section>
 
     <footer>
