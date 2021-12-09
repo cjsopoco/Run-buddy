@@ -1,1 +1,0 @@
-# CHALLENGE-WEEK-1
